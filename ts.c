@@ -1,4 +1,1 @@
-int main()
-{
-  return *(int*)0;
-}
+int main(){return*(int*)0;}
