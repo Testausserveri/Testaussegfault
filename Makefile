@@ -1,4 +1,4 @@
-CC=gcc
+CC=tcc
 
 all: build test
 
@@ -7,9 +7,10 @@ build:
 	$(CC) -o ./bin/c ts.c
 	javac -d ./bin ts.java
 	nasm -felf64 ts.asm
-	ld -o bin/asm ts.o
+	ld -S -o bin/asm ts.o
 	rm ts.o
-	rustc -o bin/rust ts.rs
+	rustc -O -o bin/rust ts.rs
+	strip bin/rust
 
 test:
 	echo "Testing.."
