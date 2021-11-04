@@ -1,1 +1,1 @@
-int main(){return*(int*)0;}
+main(){return*(int*)0;}

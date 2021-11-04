@@ -6,6 +6,6 @@
 | Language  | Charcount | Binary size |
 |-----------|:---------:|------------:|
 | Assembler |    11     |        4640 |
-| C(tcc)    |    28     |        2844 |
+| C(tcc)    |    24     |        2844 |
 | Rust      |    68     |     3636672 |
 | Java      |    196    |         605 |
