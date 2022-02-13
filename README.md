@@ -5,7 +5,7 @@
 
 | Language  | Charcount |                  Binary size |
 |-----------|:---------:|-----------------------------:|
+| C(tcc)    |    6      |                         2824 |
 | Assembler |    10     |                         4640 |
-| C(tcc)    |    8     |                         2824 |
 | Rust      |    68     |                      3636672 |
 | Java      |    196    | 605+JVM  / ~14.6 MiB (Graal) |
